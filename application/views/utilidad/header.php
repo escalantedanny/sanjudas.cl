@@ -191,11 +191,6 @@
 
 <script>
 
-$(document).ready(function() {
-
-  alert('DIOS ES GRANDE');
-
-
         function enviarPeticion()
         {
           var nombre = $('#nameCreForm').val();
@@ -219,6 +214,7 @@ $(document).ready(function() {
                       peticion:peticion,
                     },
                     function( data ) {
+                                      $('#savemodal').show;
                                       $('#nameCreForm').val('');
                                       $('#messageCreForm').val('');
                                       self.location.reload();
@@ -243,5 +239,5 @@ $(document).ready(function() {
                 $('#overlay').fadeOut('fast');
             });
         }
-}
+
 </script>

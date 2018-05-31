@@ -21,8 +21,8 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 	    
 	    // funcion que inserta los registros encontrados ap generar pdf 
 	    public function addCreyente($nombre, $peticion){
-	        $sql="INSERT INTO creyente(nombre, peticion, log) values ('".$nombre."', '".$peticion."',now())";
-	    $this->db->query($sql);
+	        $sql="INSERT INTO creyente(nombre, peticion, log) VALUES ('".$nombre."', '".$peticion."',now())";
+	    	$this->db->query($sql);
 	    }
 
 	}
