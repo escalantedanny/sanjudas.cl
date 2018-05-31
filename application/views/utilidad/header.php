@@ -191,96 +191,101 @@
 
 <script>
 
-        function enviarPeticion()
-        {
-          var nombre = $('#nameCreForm').val();
-          var peticion = $('#messageCreForm').val();
-          //alert(nombre);
-          //alert(peticion);
+    $(document).ready(function(){
+          function enviarPeticion(){
+            var nombre = $('#nameCreForm').val();
+            var peticion = $('#messageCreForm').val();
+            //alert(nombre);
+            //alert(peticion);
 
-          if (nombre == ''){
-            alert('Nombre o correo del creyente');
-            $('#nameCreForm').focus();
-            return false;
+            if (nombre == ''){
+              alert('Nombre o correo del creyente');
+              $('#nameCreForm').focus();
+              return false;
+            }
+            if (peticion == ''){
+                  alert('Debe llenar el campo peticion');
+                  $('#messageCreForm').focus();
+                  return false;
+            }
+                      $.post( "<?php echo site_url()?>/home_controller/add_comentary_whit_db",
+                      {
+                        nombre:nombre,
+                        peticion:peticion,
+                      },
+                      function( data ) {
+                                        $('#savemodal').modal('show');
+                                        $('#nameCreForm').val('');
+                                        $('#messageCreForm').val('');
+                                        self.location.reload();
+                                        }
+                      );
+                return
           }
-          if (peticion == ''){
-                alert('Debe llenar el campo peticion');
-                $('#messageCreForm').focus();
-                return false;
-          }
-                    $.post( "<?php echo site_url()?>/home_controller/add_comentary_whit_db",
-                    {
-                      nombre:nombre,
-                      peticion:peticion,
-                    },
-                    function( data ) {
-                                      $('#savemodal').modal('show');
-                                      $('#nameCreForm').val('');
-                                      $('#messageCreForm').val('');
-                                      //self.location.reload();
-                                      }
-                    );
-              return
-        }
+    });
+        function openDialog() {
+                    $('#overlay').fadeIn('fast', function() {
+                        $('#popup').css('display','block');
+                        $('#popup').animate({'left':'30%'},500);
+                    });
+                }
 
-       function openDialog() {
-                  $('#overlay').fadeIn('fast', function() {
-                      $('#popup').css('display','block');
-                      $('#popup').animate({'left':'30%'},500);
-                  });
-              }
+          function closeDialog(id) {
+              $('#'+id).css('position','absolute');
+              $('#'+id).animate({'left':'-100%'}, 500, function() {
+                  $('#'+id).css('position','fixed');
+                  $('#'+id).css('left','100%');
+                  $('#overlay').fadeOut('fast');
+              });
+          }
+  //************************************************************************************* */
+    function submitContactForm(){
+            var nombre = $('#nameCre').val();
+            var email = $('#emailCre').val();
+            var asunto = $('#asunto').val();
+            var mensaje = $('#message').val();
 
-        function closeDialog(id) {
-            $('#'+id).css('position','absolute');
-            $('#'+id).animate({'left':'-100%'}, 500, function() {
-                $('#'+id).css('position','fixed');
-                $('#'+id).css('left','100%');
-                $('#overlay').fadeOut('fast');
-            });
-        }
-//************************************************************************************* */
-  function submitContactForm(){
-          var nombre = $('#nameCre').val();
-          var email = $('#emailCre').val();
-          var asunto = $('#asunto').val();
-          var mensaje = $('#message').val();
+            if (nombre == ''){
+                  alert('Nombre Requerido');
+                  $('#nameCre').focus();
+                  return false;
+            }
+            if (email == ''){
+                  alert('Email Requerido');
+                  $('#emailCre').focus();
+                  return false;
+            }
+            if (asunto == ''){
+                  alert('Asunto requerido');
+                  $('#asunto').focus();
+                  return false;
+            }
+            if (mensaje == ''){
+                  alert('Mensaje Requerido');
+                  $('#message').focus();
+                  return false;
+            }
+                      $.post( "<?php echo site_url()?>/home_controller/contacto",
+                      {
+                        nombre:nombre,
+                        email:email,
+                        asunto:asunto,
+                        mensaje:mensaje
+                      },,
+                      function( data ) {
+                        var nombre = $('#nameCre').val('');
+                        var email =  $('#emailCre').val('');
+                        var asunto = $('#asunto').val('');
+                        var mensaje = $('#message').val('');
+                                        self.location.reload();
+                                        }
+                      );
+                return
+          }
 
-          if (nombre == ''){
-                alert('Nombre Requerido');
-                $('#nameCre').focus();
-                return false;
-          }
-          if (email == ''){
-                alert('Email Requerido');
-                $('#emailCre').focus();
-                return false;
-          }
-          if (asunto == ''){
-                alert('Asunto requerido');
-                $('#asunto').focus();
-                return false;
-          }
-          if (mensaje == ''){
-                alert('Mensaje Requerido');
-                $('#message').focus();
-                return false;
-          }
-                    $.post( "<?php echo site_url()?>/home_controller/contacto",
-                    {
-                      nombre:nombre,
-                      email:email,
-                      asunto:asunto,
-                      mensaje:mensaje
-                    },
-                    function( data ) {
-                      var nombre = $('#nameCre').val('');
-                      var email =  $('#emailCre').val('');
-                      var asunto = $('#asunto').val('');
-                      var mensaje = $('#message').val('');
-                                      //self.location.reload();
-                                      }
-                    );
-              return
-        }
+
+
+
+
 
 </script>
