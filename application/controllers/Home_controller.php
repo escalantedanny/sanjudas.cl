@@ -37,4 +37,11 @@ class Home_controller extends CI_Controller {
 		$this->load->view('sanjudas');
 	}
 
+	public function contacto(){
+			$nombre        = $this->input->post('nombre');
+			$email      = $this->input->post('email');
+			$asunto        = $this->input->post('asunto');
+	       	$mensaje      = $this->input->post('mensaje');
+           	$this->Creyente_model->addContacto($nombre, $email,$asunto,$mensaje);
+	}
 }

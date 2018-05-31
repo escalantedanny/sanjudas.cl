@@ -23,7 +23,12 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 	    public function addCreyente($nombre, $peticion){
 	        $sql="INSERT INTO creyente(nombre, peticion, log) VALUES ('".$nombre."', '".$peticion."',now())";
 	    	$this->db->query($sql);
-	    }
+		}
+		
+		public function addContacto($nombre, $email,$asunto,$mensaje){
+			$sql="INSERT INTO contacto(nombre, email, asunto, mensaje, log) VALUES ('".$nombre."', '".$email."','".$asunto."', '".$mensaje."',now())";
+	    	$this->db->query($sql);
+		}
 
 	}
 ?>

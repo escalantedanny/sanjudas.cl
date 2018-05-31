@@ -115,7 +115,7 @@
       </div>
       <div class="modal-body">
         
-        <form id="main-contact-form" name="contact-form" method="post" action="#">
+        <form >
                 <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                   <div class="col-sm-6">
                     <div class="form-group">
@@ -195,8 +195,8 @@
         {
           var nombre = $('#nameCreForm').val();
           var peticion = $('#messageCreForm').val();
-          alert(nombre);
-          alert(peticion);
+          //alert(nombre);
+          //alert(peticion);
 
           if (nombre == ''){
             alert('Nombre o correo del creyente');
@@ -214,17 +214,16 @@
                       peticion:peticion,
                     },
                     function( data ) {
-                                      $('#savemodal').show;
+                                      $('#savemodal').modal('show');
                                       $('#nameCreForm').val('');
                                       $('#messageCreForm').val('');
-                                      self.location.reload();
-                                      alert(data);
+                                      //self.location.reload();
                                       }
                     );
               return
-            }
+        }
 
-            function openDialog() {
+       function openDialog() {
                   $('#overlay').fadeIn('fast', function() {
                       $('#popup').css('display','block');
                       $('#popup').animate({'left':'30%'},500);
@@ -238,6 +237,50 @@
                 $('#'+id).css('left','100%');
                 $('#overlay').fadeOut('fast');
             });
+        }
+//************************************************************************************* */
+  function submitContactForm(){
+          var nombre = $('#nameCre').val();
+          var email = $('#emailCre').val();
+          var asunto = $('#asunto').val();
+          var mensaje = $('#message').val();
+
+          if (nombre == ''){
+                alert('Nombre Requerido');
+                $('#nameCre').focus();
+                return false;
+          }
+          if (email == ''){
+                alert('Email Requerido');
+                $('#emailCre').focus();
+                return false;
+          }
+          if (asunto == ''){
+                alert('Asunto requerido');
+                $('#asunto').focus();
+                return false;
+          }
+          if (mensaje == ''){
+                alert('Mensaje Requerido');
+                $('#message').focus();
+                return false;
+          }
+                    $.post( "<?php echo site_url()?>/home_controller/contacto",
+                    {
+                      nombre:nombre,
+                      email:email,
+                      asunto:asunto,
+                      mensaje:mensaje
+                    },
+                    function( data ) {
+                      var nombre = $('#nameCre').val('');
+                      var email =  $('#emailCre').val('');
+                      var asunto = $('#asunto').val('');
+                      var mensaje = $('#message').val('');
+                                      //self.location.reload();
+                                      }
+                    );
+              return
         }
 
 </script>
