@@ -89,6 +89,8 @@
             <li class="scroll"><a href="<? echo base_url('#about-us')?>">Parroquia</a></li>                     
             <li class="scroll"  data-toggle="modal" data-target="#myModal"><a href="<? echo base_url('#contact')?>">Contacto</a></li>      
             <li class="scroll"  data-toggle="modal" data-target="#myAporte"><a href="<? echo base_url('#aporte')?>">Aporte</a></li> 
+            <li class="scroll"  data-toggle="modal" data-target="#myLogin"><a href="<? echo base_url('#loogin')?>">Usuario</a></li> 
+
           </ul>
         </div>
       </div>
@@ -103,8 +105,44 @@
         <p><strong>Deuteronomio 3:22 - No los temáis; porque Jave vuestro Dios, él es el que pelea por vosotros.</strong></p>
     </div>
 </div>
+<!-- Modal de Usuario -->
+<div id="myLogin" name="myLogin" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
-<!-- Modal -->
+    <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Usuario</h4>
+        </div>
+
+            <div class="modal-body">
+                  <div class="row" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                <p class="login-box-msg">
+                                  Log in to start your session
+                                </p>
+                                <div class="col-2"></div>
+
+                                            <form class="form-signin" id="frmlogin" action="<?php echo site_url('login/iniciar')?>" data-url="<?php echo site_url('main')?>">
+                                            
+                                                <div class="logo"></div>
+                                                <input type="text" name="txtuser" class="form-control" placeholder="Email" required="" autofocus="">
+                                                <input type="password" name="txtpass" class="form-control" placeholder="**********" required="">
+                                                <label class="checkbox">
+                                                </label>
+                                                
+                                                <button id="btniniciar" class="btn btn-lg btn-primary btn-block" type="submit"></button>
+                                            </form>
+
+                                <div class="col-2"></div>
+
+                  </div>
+            </div>
+            
+    </div>
+  </div> <!-- fin pantalla modal registro-->
+</div>
+
+<!-- Modal de Registro -->
 <div id="myModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
@@ -146,6 +184,7 @@
   </div>
 </div> <!-- fin pantalla modal registro-->
 
+<!-- Modal de Dialogo -->
 <div id="myAporte" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
@@ -169,6 +208,8 @@
   </div>
 </div> <!-- FIN MODAL DIALOGO -->
 
+
+
 <div class="modal fade" id="savemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -177,7 +218,7 @@
           <h4 class="modal-title" id="myModalLabel">Peticion de Creyente</h4>
         </div>
         <div class="modal-body">
-          Guardado con &eacute;xito
+          Registro Guardado con &eacute;xito
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>

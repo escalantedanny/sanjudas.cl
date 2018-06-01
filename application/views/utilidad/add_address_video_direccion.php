@@ -26,8 +26,11 @@
 </div>
 		<div class="container">
 			<div class="row">
-				<div class="wow fadeIn">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d106520.5777091088!2d-70.651099!3d-33.455349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c50ddf380f9b%3A0xf00b4ac8f9ecbec2!2sZenteno+764%2C+Santiago%2C+Regi%C3%B3n+Metropolitana%2C+Chile!5e0!3m2!1sen!2sus!4v1527462078601" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div class="col-12 bt-5">
+					<div class="wow fadeIn">
+						<!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d106520.5777091088!2d-70.651099!3d-33.455349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c50ddf380f9b%3A0xf00b4ac8f9ecbec2!2sZenteno+764%2C+Santiago%2C+Regi%C3%B3n+Metropolitana%2C+Chile!5e0!3m2!1sen!2sus!4v1527462078601" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3568.171493869772!2d-70.65226423033933!3d-33.456337907843135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c50ddf380f9b%3A0xf00b4ac8f9ecbec2!2sZenteno+764%2C+Santiago%2C+Regi%C3%B3n+Metropolitana%2C+Chile!5e1!3m2!1ses-419!2sus!4v1527861925788" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
 				</div>
 			</div>
 		</div>
