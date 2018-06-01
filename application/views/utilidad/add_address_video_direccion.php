@@ -10,7 +10,7 @@
 				</div>
 				
 				<div class="col-md-4">
-					<a href="https://www.google.cl/maps/dir//Zenteno+764,+Santiago,+Regi%C3%B3n+Metropolitana/@-33.4553491,-70.6532875,17z/data=!4m17!1m7!3m6!1s0x9662c50ddf380f9b:0xf00b4ac8f9ecbec2!2sZenteno+764,+Santiago,+Regi%C3%B3n+Metropolitana!3b1!8m2!3d-33.4553491!4d-70.6510988!4m8!1m0!1m5!1m1!1s0x9662c50ddf380f9b:0xf00b4ac8f9ecbec2!2m2!1d-70.6510988!2d-33.4553491!3e3?hl=es-419&authuser=0" target="blank"><img src="<? echo base_url('asset/images/sanjudas/comollegar2.png') ?>" alt=""></a>
+					<a href="https://www.google.cl/maps/dir//Zenteno+764,+Santiago,+Regi%C3%B3n+Metropolitana/@-33.4553491,-70.6532875,17z/data=!4m17!1m7!3m6!1s0x9662c50ddf380f9b:0xf00b4ac8f9ecbec2!2sZenteno+764,+Santiago,+Regi%C3%B3n+Metropolitana!3b1!8m2!3d-33.4553491!4d-70.6510988!4m8!1m0!1m5!1m1!1s0x9662c50ddf380f9b:0xf00b4ac8f9ecbec2!2m2!1d-70.6510988!2d-33.4553491!3e3?hl=es-419&authuser=0" target="_blank"><img src="<? echo base_url('asset/images/sanjudas/comollegar2.png') ?>" alt=""></a>
 				</div>
 				<div class="col-md-4">
 					<p><h2>HORARIOS EUCARISTIA</h2></p>

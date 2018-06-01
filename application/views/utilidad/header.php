@@ -13,6 +13,7 @@
   <link href="<? echo base_url('asset/css/main.css') ?>" rel="stylesheet">
   <link id="css-preset" href="<? echo base_url('asset/css/presets/preset1.css') ?>" rel="stylesheet">
   <link href="<? echo base_url('asset/css/responsive.css')?>" rel="stylesheet">
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=yAIzaSyDzB-LnhYfWNQ6xalaX4xekeWEzhHAgMZ0"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="images/favicon.ico">
@@ -134,9 +135,7 @@
                 <div class="form-group">
                   <textarea name="message" id="message" class="form-control" rows="4" placeholder="Introduzca su mensaje" required="required"></textarea>
                 </div>                        
-                <div class="form-group">
-                  
-                </div>
+
       </form>   
       </div>
       <div class="modal-footer">
@@ -187,11 +186,7 @@
     </div><!-- /.modal-dialog -->
   </div><!-- /.FIN modal CONFIRMADO -->
 
-
-
 <script>
-
-    $(document).ready(function(){
           function enviarPeticion(){
             var nombre = $('#nameCreForm').val();
             var peticion = $('#messageCreForm').val();
@@ -217,12 +212,11 @@
                                         $('#savemodal').modal('show');
                                         $('#nameCreForm').val('');
                                         $('#messageCreForm').val('');
-                                        self.location.reload();
+                                        //self.location.reload();
                                         }
                       );
-                return
           }
-    });
+
         function openDialog() {
                     $('#overlay').fadeIn('fast', function() {
                         $('#popup').css('display','block');
@@ -230,7 +224,7 @@
                     });
                 }
 
-          function closeDialog(id) {
+        function closeDialog(id) {
               $('#'+id).css('position','absolute');
               $('#'+id).animate({'left':'-100%'}, 500, function() {
                   $('#'+id).css('position','fixed');
@@ -240,6 +234,7 @@
           }
   //************************************************************************************* */
     function submitContactForm(){
+
             var nombre = $('#nameCre').val();
             var email = $('#emailCre').val();
             var asunto = $('#asunto').val();
@@ -270,22 +265,18 @@
                         nombre:nombre,
                         email:email,
                         asunto:asunto,
-                        mensaje:mensaje
-                      },,
+                        mensaje:mensaje,
+                      },
                       function( data ) {
+                        $('#savemodal').modal('show');
                         var nombre = $('#nameCre').val('');
                         var email =  $('#emailCre').val('');
-                        var asunto = $('#asunto').val('');
+                        var asunto =  $('#asunto').val('');
                         var mensaje = $('#message').val('');
-                                        self.location.reload();
+                        $('#myModal').modal('hide');
+                                        //self.location.reload();
                                         }
                       );
-                return
           }
-
-
-
-
-
 
 </script>

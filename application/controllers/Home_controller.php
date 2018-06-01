@@ -42,6 +42,6 @@ class Home_controller extends CI_Controller {
 			$email      = $this->input->post('email');
 			$asunto        = $this->input->post('asunto');
 	       	$mensaje      = $this->input->post('mensaje');
-           	$this->Creyente_model->addContacto($nombre, $email,$asunto,$mensaje);
+           	$this->Creyente_model->addContacto($nombre, $email, $asunto, $mensaje);
 	}
 }
