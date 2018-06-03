@@ -10,3 +10,5 @@ $route['comentary'] = 'Home_controller/add_comentary_whit_db';
 $route['login'] = 'Home_controller/login';
 $route['nosotros'] = 'Home_controller/quienes_somos';
 $route['sanjudas'] = 'Home_controller/show_sanjudas';
+$route['peticiones'] = 'Home_controller/show_peticiones';
+$route['himno'] = 'Home_controller/show_himno';

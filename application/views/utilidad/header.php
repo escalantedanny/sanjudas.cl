@@ -163,7 +163,7 @@
                   </div>
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="emailCre" name="emailCre" id="emailCre" class="form-control" placeholder="Email" required="required">
+                      <input type="email" name="emailCre" id="emailCre" class="form-control" placeholder="Email" required="required">
                     </div>
                   </div>
                 </div>
@@ -194,7 +194,7 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h4 class="modal-title">Datos del Aporte</h4>
       </div>
-      <div class="modal-body">
+      <div class="modal-body"> 
         <div><p>Dirección del Santuario<br>
                 Calle Zenteno (ex Gálvez) 764 esquina Copiapó, Santiago Centro<br>
                 Fono: 226989491<br>

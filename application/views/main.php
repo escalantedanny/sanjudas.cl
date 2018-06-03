@@ -39,7 +39,7 @@ $this->load->view('utilidad/header');
             </div>
           </div>
           <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-            <a href="">
+            <a href="<?php echo base_url( ) ?>index.php/peticiones">
                   <div class="service-icon">
                         <i class="fa fa-stack-exchange"></i>
                   </div>
@@ -50,7 +50,7 @@ $this->load->view('utilidad/header');
             </div>
           </div>
           <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-            <a href="">
+            <a href="<?php echo base_url( ) ?>index.php/himno">
                   <div class="service-icon">
                         <i class="fa fa-stack-exchange"></i>
                   </div>

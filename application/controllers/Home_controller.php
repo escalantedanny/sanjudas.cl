@@ -37,6 +37,14 @@ class Home_controller extends CI_Controller {
 		$this->load->view('sanjudas');
 	}
 
+	public function show_peticiones(){
+		$this->load->view('peticiones');
+	}
+
+	public function show_himno(){
+		$this->load->view('himno');
+	}
+
 	public function contacto(){
 			$nombre        = $this->input->post('nombre');
 			$email      = $this->input->post('email');
