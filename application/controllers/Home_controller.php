@@ -52,4 +52,10 @@ class Home_controller extends CI_Controller {
 	       	$mensaje      = $this->input->post('mensaje');
            	$this->Creyente_model->addContacto($nombre, $email, $asunto, $mensaje);
 	}
+
+	public function conectar(){
+		$email      =    $this->input->post('email');
+		$password   =    $this->input->post('password');
+		$this->Creyente_model->logear($email, $password);
+	}
 }

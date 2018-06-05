@@ -89,7 +89,7 @@
             <li class="scroll"><a href="<? echo base_url('#about-us')?>">Parroquia</a></li>                     
             <li class="scroll"  data-toggle="modal" data-target="#myModal"><a href="<? echo base_url('#contact')?>">Contacto</a></li>      
             <li class="scroll"  data-toggle="modal" data-target="#myAporte"><a href="<? echo base_url('#aporte')?>">Aporte</a></li> 
-            <li class="scroll"  data-toggle="modal" data-target="#myLogin"><a href="<? echo base_url('#loogin')?>">Usuario</a></li> 
+            <li class="scroll"  data-toggle="modal" data-target="#myLogin"><a href="<? echo base_url( )?>index.php/login">Usuario</a></li> 
 
           </ul>
         </div>
@@ -116,25 +116,36 @@
         </div>
 
             <div class="modal-body">
-                  <div class="row" data-wow-duration="1000ms" data-wow-delay="300ms">
-                                <p class="login-box-msg">
-                                  Log in to start your session
-                                </p>
-                                <div class="col-2"></div>
-
-                                            <form class="form-signin" id="frmlogin" action="<?php echo site_url('login/iniciar')?>" data-url="<?php echo site_url('main')?>">
-                                            
-                                                <div class="logo"></div>
-                                                <input type="text" name="txtuser" class="form-control" placeholder="Email" required="" autofocus="">
-                                                <input type="password" name="txtpass" class="form-control" placeholder="**********" required="">
-                                                <label class="checkbox">
-                                                </label>
-                                                
-                                                <button id="btniniciar" class="btn btn-lg btn-primary btn-block" type="submit"></button>
-                                            </form>
-
-                                <div class="col-2"></div>
-
+                  <div class="text-center" style="padding:50px 0">
+                      <div class="logo">login</div>
+                      <!-- Main Form -->
+                      <div class="login-form-1">
+                          <form id="login-form" class="text-left">
+                              <div class="login-form-main-message"></div>
+                              <div class="main-login-form">
+                                  <div class="login-group">
+                                      <div class="form-group">
+                                          <label for="lg_username" class="sr-only">Username</label>
+                                          <input type="text" class="form-control" id="lg_username" name="lg_username" placeholder="username">
+                                      </div>
+                                      <div class="form-group">
+                                          <label for="lg_password" class="sr-only">Password</label>
+                                          <input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="password">
+                                      </div>
+                                      <div class="form-group login-group-checkbox">
+                                          <input type="checkbox" id="lg_remember" name="lg_remember">
+                                          <label for="lg_remember">remember</label>
+                                      </div>
+                                  </div>
+                                  <button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
+                              </div>
+                              <div class="etc-login-form">
+                                  <!--<p>forgot your password? <a href="#">click here</a></p>
+                                  <p>new user? <a href="#">create new account</a></p>-->
+                              </div>
+                          </form>
+                      </div>
+                      <!-- end:Main Form -->
                   </div>
             </div>
             
@@ -156,6 +167,8 @@
         
         <form >
                 <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="form-group"><H4 align="center">PETICION PERSONAL </h4></div>
+                    <hr>
                   <div class="col-sm-6">
                     <div class="form-group">
                       <input type="text" name="nameCre" id="nameCre" class="form-control" placeholder="Nombre" required="required">

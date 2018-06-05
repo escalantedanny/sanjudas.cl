@@ -249,10 +249,10 @@ $this->load->view('utilidad/header');
               en la segunda mitad del siglo XIX.<br>Su edificación se inició en 1856, en terrenos de la congregación de los Misioneros 
               Hijos del Inmaculado Corazón de María, popularmente conocidos como Claretianos. &nbsp;En 1928 se reconoce su calidad de 
               parroquia del Corazón de María y al año siguiente, el Papa Pío XI le confiere el título de basílica, la primera en el mundo 
-              dedicada al Corazón de María.<br>La basílica sufrió serios daños estructurales después del terremoto del 27 de febrero de 2010 
+              dedicada al Corazón de María.<br>La basílica sufrió serios daños estructurales después del terremoto del 27 de febrero de   2010 
               y tras dos años de restauración, fue reabierta el 18 de marzo de 2012.<br>Fue declarada Monumento Histórico en 1987.&nbsp;</p>
           </div>
-          <a href="<? echo base_url('nosotros') ?>">Leer mas</a>
+          <a href="<? echo base_url( )?>index.php/nosotros">Leer mas</a>
         </div>
         <div class="col-sm-6">
           <div><h1 align="center">Basilica del Corazon de Maria</h1></div>

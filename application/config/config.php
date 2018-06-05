@@ -1,9 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-define('SERVER_NAME_DEV', 'localhost');
-define('SERVER_NAME_EMPRESA', 'sanjudas.cl');
-define('SERVER_NAME_FINAL', 'sanjudas.cl');
+define('SERVER_NAME_DEV', 'http://localhost/sanjudas.cl');
+define('SERVER_NAME_EMPRESA', 'http://localhost/sanjudas.cl');
+define('SERVER_NAME_FINAL', 'http://localhost/sanjudas.cl');
 
 //Obtenemos el nombre actual para el servidor donde nos encontramos
 $nombreServerActual = $_SERVER['SERVER_NAME'];
@@ -16,7 +16,7 @@ switch($nombreServerActual)
             $config['base_url']    = "http://localhost/sanjudas.cl/";
             break;
     case SERVER_NAME_FINAL:
-            $config['base_url']    = "http://localhost/sanjudas.cl/";
+            $config['base_url']    = "localhost/sanjudas.cl/";
             break;
     default:
             $config['base_url']    = "http://localhost/sanjudas.cl/";
