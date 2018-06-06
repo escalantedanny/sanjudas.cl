@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 $this->load->view('utilidad/header');
@@ -8,7 +8,7 @@ $this->load->view('utilidad/header');
       <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
         <div class="row">
           <div class="text-center col-sm-8 "> <!--col-sm-offset-2 -->
-              <p align="justify"><strong><h2>Deuteronomio 3:22 - No los temáis; porque Jave vuestro Dios, él es el que pelea por vosotros.</h2></strong></p>
+              <p align="justify"><strong><h2>Deuteronomio 3:22 - "no los teman, porque Yavé combate por ustedes ."</h2></strong></p>
               <br>
               <h2>PETICION O AGRADECIMIENTO</h2>
               <input type="text" name="nameCreForm" id="nameCreForm" class="form-control" placeholder="Nombre" required="required">
@@ -190,30 +190,16 @@ $this->load->view('utilidad/header');
               </div>
               <ul>
 
-                <li>12:00 | 13:00</li>
-                <li>17:30 | 18:30</li>
+                
+                <li>19:30 | 20:30</li>
                 <li>Todos los Jueves hacemos</li>
                 <li>la Oracion de San Judas Tadeo</li>
-                <li>al terminal la Eucaristia de las 17:30</li>
+                <li>al terminal la Eucaristia de las 19:30</li>
                 
               </ul>
             </div>
           </div>
-          <div class="col-sm-3">
-            <div class="single-table wow featured flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
-              <h3>28 de cada mes</h3>
-              <div class="price">
-                Homilia                             
-              </div>
-              <ul>
 
-                <li>09:00 | 10:00</li>
-                <li>11:00 | 12:00</li>
-                <li> y 17:30</li>
-                <li>Corta Procesion con Replica</li>
-              </ul>
-            </div>
-          </div>
           <div class="col-sm-6">
             <div class="single-table featured wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
               <h3>Actividades Pastorales</h3>
@@ -231,6 +217,28 @@ $this->load->view('utilidad/header');
               </ul>
             </div>
           </div>
+
+
+
+
+          <div class="col-sm-3">
+            <div class="single-table wow featured flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+              <h3>28 de cada mes</h3>
+              <div class="price">
+                Homilia                             
+              </div>
+              <ul>
+
+                <li>09:00 | 10:00</li>
+                <li>11:00 | 12:00</li>
+                <li>19:30 | 20:30</li>
+                <li>Corta Procesion con Replica</li><br>
+              </ul>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </div>

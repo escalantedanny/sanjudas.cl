@@ -15,11 +15,11 @@
 				<div class="col-md-4">
 					<p><h2>HORARIOS EUCARISTIA</h2></p>
 					<ul>
-		                <li>12:00 | 13:00</li>
-		                <li>17:30 | 18:30</li>
+		                <li>19:30 | 20:30</li>
+		                
 		                <li>Todos los Jueves hacemos, 
 		                la Oracion de San Judas Tadeo
-		                al terminal la Eucaristia de las 17:30</li>
+		                al terminal la Eucaristia de las 19:30</li>
 		              </ul>
 				</div>
 			</div>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 $active_group = 'default';
@@ -8,17 +8,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	/*          conexion desarrollo       */
-	//'hostname' => 'http://database.sanjudas.cl',
-	//'username' => 'judastadeo',	
-	//'password' => 'BasiLIcaCM@',
-	//'database' => 'zenteno',
-	
-
-	/*           conexion local           */
-	'hostname' => 'localhost',
-	'username' => 'root',	
-	'password' => '13081',
+	'hostname' => 'database.sanjudas.cl',
+	'username' => 'judastadeo',	
+	'password' => 'BasiLIcaCM@',
 	'database' => 'zenteno',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

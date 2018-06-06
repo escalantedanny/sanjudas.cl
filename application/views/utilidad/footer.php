@@ -21,7 +21,7 @@
             <p>&copy; 2018 San Judas Tadeo - Santiago Chile</p>
           </div>
           <div class="col-sm-6">
-            <p class="pull-right">Creada por Parroquia San Judas Tadeo <a href="http://www.sanjudas.cl">San Judas Tadeo</a></p>
+            <p class="pull-right">Creada por Parroquia Corazón de María Y Santuario de San Judas Tadeo <a href="http://www.sanjudas.cl">San Judas Tadeo</a></p>
           </div>
         </div>
       </div>

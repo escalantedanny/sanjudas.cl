@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Home_controller extends CI_Controller {
@@ -7,8 +7,8 @@ class Home_controller extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->helper('url');
-        $this->load->database();
-        $this->load->helper('form');
+        	$this->load->database();
+        	$this->load->helper('form');
 		$this->load->model( 'Creyente_model' );
 	}
 

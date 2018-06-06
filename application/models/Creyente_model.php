@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if (!defined('BASEPATH')) exit('No direct script access allowed');
 /**
 * Agenda_Model
@@ -36,7 +36,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 
  		if ($query->num_rows() > 0) {
 			$row = $query->result_array();
-				if ($row['rol'] == 1) ?	return $row[0]; : return false;
+				//if ($row['rol'] == 1) ?	return $row[0]; : return false;
 		}
 		else
  			return FALSE;
