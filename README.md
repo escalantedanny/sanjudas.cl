@@ -1,4 +1,4 @@
-# <a href="http://www.sanjudas.cl">sanjudas.cl</a>
+# <a href="http://www.sanjudas.cl" target="_blank">sanjudas.cl</a>
 <h1>pagina parroquia san judas tadeo</h1>
 
 
