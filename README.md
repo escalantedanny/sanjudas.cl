@@ -12,3 +12,15 @@ luego desde el <strong>localhost</strong> debemos tipear
 <code>localhost/sanjudas.cl</code>
 
 para podremos ver la pagina en nuestro directorio local
+
+
+
+
+
+
+
+
+
+<div class="col-sm-6">
+            <p>&copy; 2018 San Judas Tadeo - Santiago Chile</p>
+          </div>
