@@ -1,4 +1,12 @@
-# sanjudas.cl
-pagina parroquia san judas tadeo
+# <a href="www.sanjudas.cl">sanjudas.cl</a>
+<h1>pagina parroquia san judas tadeo</h1>
 
-<code>comando para realizar la clonacion del repositorio</code>
+
+entramos a la terminal y nos dirigimos a la carpeda donde queremos descargas la carpeta y tipeamos
+<code>git clone https://github.com/escalantedanny/sanjudas.cl.git </code>
+
+luego desde el <strong>localhost</strong> debemos tipear
+
+<code>localhost/sanjudas.cl</code>
+
+para podremos ver la pagina en nuestro directorio local
