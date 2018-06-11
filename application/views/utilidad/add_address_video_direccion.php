@@ -15,15 +15,17 @@
 				<div class="col-md-4">
 					<p><h2>HORARIOS EUCARISTIA</h2></p>
 					<ul>
-		                <li>19:30 | 20:30</li>
+		                <li>19:30</li>
 		                
 		                <li>Todos los Jueves hacemos, 
 		                la Oracion de San Judas Tadeo
-		                al terminal la Eucaristia de las 19:30</li>
+		                al concluir la Eucaristia.</li>
 		              </ul>
 				</div>
 			</div>
 </div>
+<br>
+<br>
 		<div class="container">
 			<div class="row">
 				<div class="col-12 bt-5">

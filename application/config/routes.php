@@ -13,4 +13,4 @@ $route['sanjudas'] = 'Home_controller/show_sanjudas';
 $route['peticiones'] = 'Home_controller/show_peticiones';
 $route['himno'] = 'Home_controller/show_himno';
 
-$route['conectar'] = 'Home_controller/conectar';
+$route['conectar'] = 'Auth_controller/login';

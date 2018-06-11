@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 $this->load->view('utilidad/header');
@@ -25,7 +25,7 @@ $this->load->view('utilidad/header');
             <p class="blog-post-meta"><strong>   RP. Fernando Vega Cortés, C.M.F..</strong></p>
 			<br>
             <h2 class="blog-post-title">ZONA Y DECANATO</h2>
-            <p class="blog-post-meta"><strong>Centro Avda. Matta</strong></p>
+            <p class="blog-post-meta"><strong>Zona Centro, Decanato Matta</strong></p>
  			<br>
             <h2 class="blog-post-title">CAPILLA</h2>
             <p class="blog-post-meta"><strong>María Inmaculada</strong></p>          
@@ -34,7 +34,7 @@ $this->load->view('utilidad/header');
             <p class="blog-post-meta"><strong>Sr. Solón Opazo Correa</strong></p>   
  			<br>
             <h2 class="blog-post-title">VICARIO PARROQUIAL</h2>
-            <p class="blog-post-meta"><strong>P. Agustín Cabré Rufatt, P. Fernando Ruz Trujillo</strong></p>  
+            <p class="blog-post-meta"><strong>Padre Pompeyo Corada</strong></p>  
           </div>
 
 

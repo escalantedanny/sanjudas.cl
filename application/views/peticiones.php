@@ -13,51 +13,10 @@ $this->load->view('utilidad/header');
      	 </div>
      </div>
 </div>
+<br>
     <main role="main" class="container">
       <div class="row">
         <div class="col-md-8 blog-main">
-          <h3 class="pb-3 mb-4 font-italic border-bottom">
-            Peticiones, Oraciones y Alabanzas
-          </h3>
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">San judas Tadeo Apóstol</h2>
-            <p class="blog-post-meta"><strong>Oraciones a San Judas Tadeo para casos difíciles y desesperados</strong></p>
-            <p align="justify">Oh maravilloso San Judas Tadeo tú que eres bendito patrón de los desesperados y de los casos difíciles, apiádate de mi e intercede para con nuestro señor Jesús Cristo para que pueda alivianar esta situación que estoy viviendo en este momento.</p>
-
-            <p align="justify">Sagrado San Judas, auxíliame, no ignores mi petición, pues me encuentro desesperado y con la mayor de las esperanzas en que me ayudes a esta solicitud, recurro a ti para que uses los privilegios que fueron concedidos al estar con nuestro señor Jesucristo sentado a su lado.</p>
-
-            <p align="justify">A través de esta oración, deseo pedirte con gran fervor que me des las fuerzas necesarias para soportar un gran problema que me aflige y debilita mi corazón. Glorioso San Judas haz que mis penas se llenen de gozo, hazme sentir tu poderosa intercesión ante nuestro señor, tú que conociste en vida muy bien el sufrimiento, haz que mis penurias se puedan apaciguar con tu maravilloso poder.</p>
-
-            <br>
-
-            <blockquote>
-              <p>(Rezar 5 padres nuestros y 5 Ave María y continuar la oración).</p>
-            </blockquote>
-          </div>
-
-          <div class="blog-post">
-            <p class="blog-post-meta"><strong>Oración a San Judas Tadeo para el trabajo</strong></p>
-            <p align="justify">necesidades, mi preocupación y sufrimiento se alivien.
-            Muy especialmente aclamo a tu celestial ayuda, para poder encontrar un trabajo que me permita desarrollar como ser humano y que le concede a mi familia tener una estabilidad económica, de tal manera que no le falte lo necesario en ningún aspecto de la vida, oh misericordioso apóstol dame fuerza y valor para enfrentar las situaciones de desespero y sufrimiento que estoy viviendo con mi familia en estos momentos..</p>
-            <blockquote>
-              <p align="justify">(Rezamos oración con 5 padres nuestro y 5 aves María)</p>
-            </blockquote>
-            <p align="justify">Además de Santiago, a San Judas Tadeo se le venera en la localidad de Malloa, en la Región de O'Higgins, de la cual es su santo patrono. Millares de peregrinos de la localidad y sus alrededores se reúnen el 28 de octubre para rendir culto al santo, cuya devoción se originó en 1887, cuando un sacerdote italiano trajo una pintura con la imagen del santo tras enterarse de un brote de cólera que se propagó en la zona, encomendando a San Judas Tadeo para la protección de los enfermos, los cuales han sido curados tras realizar una procesión desde Pelequén hasta Malloa, donde fue colocada en el altar mayor de la iglesia local..</p>
-          </div><!-- /.blog-post -->
-
-          <div class="blog-post">
-            <p class="blog-post-meta"><strong>Oración a San Judas Tadeo para el amor</strong></p>
-            <p align="justify">que llevo actualmente, especialmente te pido que abogues por la unión y reconciliación con mi pareja, ayúdanos a superar todas las adversidades que vivimos a diario, sobre todo auxílianos en disipar todas las dudas, angustias, celos y reproches.</p>
-
-            <p>Con tu grandioso poder, haz que se fortalezca todo lo bueno de nuestra relación, te pido seas bondadoso ante esta solicitud, haznos recordar y sentir todo el amor que nos unió en otros tiempos.</p>
-
-            <p>Te pido con mucha fe, que nos asistas en esta situación difícil en la que estamos viviendo, por el amor que tienes a la Santísima Virgen y a tu primo Jesucristo intermedia por nuestra solicitud y concédeme lo que tanto necesito en este momento.</p>
-            <blockquote>
-              <p align="justify">(Rezamos oración con 5 padres nuestro y 5 aves María)</p>
-            </blockquote>
-            <p align="justify">Además de Santiago, a San Judas Tadeo se le venera en la localidad de Malloa, en la Región de O'Higgins, de la cual es su santo patrono. Millares de peregrinos de la localidad y sus alrededores se reúnen el 28 de octubre para rendir culto al santo, cuya devoción se originó en 1887, cuando un sacerdote italiano trajo una pintura con la imagen del santo tras enterarse de un brote de cólera que se propagó en la zona, encomendando a San Judas Tadeo para la protección de los enfermos, los cuales han sido curados tras realizar una procesión desde Pelequén hasta Malloa, donde fue colocada en el altar mayor de la iglesia local..</p>
-          </div><!-- /.blog-post -->
 
           <div class="blog-post">
             <p class="blog-post-meta"><strong>Alabanzas a Dios.</strong></p>
@@ -100,11 +59,11 @@ $this->load->view('utilidad/header');
           <div class="p-3">
             <h4 class="font-italic">Archivos</h4>
             <ol class="list-unstyled mb-0">
-              <li><a href="#">Enero 2018</a></li>
+              <!--<li><a href="#">Enero 2018</a></li>
               <li><a href="#">Febrero 2018</a></li>
               <li><a href="#">Marzo 2018</a></li>
               <li><a href="#">Abril 2018</a></li>
-              <li><a href="#">Mayo 2018</a></li>
+              <li><a href="#">Mayo 2018</a></li>-->
               <li><a href="#">Junio 2018</a></li>
               <li><a href="#">Julio 2018</a></li>
               <li><a href="#">Agosto 2018</a></li>

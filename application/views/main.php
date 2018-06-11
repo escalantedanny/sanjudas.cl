@@ -8,15 +8,18 @@ $this->load->view('utilidad/header');
       <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
         <div class="row">
           <div class="text-center col-sm-8 "> <!--col-sm-offset-2 -->
-              <p align="justify"><strong><h2>Deuteronomio 3:22 - "no los teman, porque Yavé combate por ustedes ."</h2></strong></p>
-              <br>
-              <h2>PETICION O AGRADECIMIENTO</h2>
+              <p align="justify"><strong><h2>Saludo desde el Santuario</h2></strong></p>
+		<p align=”center”><h5><strong>Después de tanto tiempo aquí estamos nuevamente. Desde el Santuario de San Judas Tadeo recibe la bendición de Dios que te ama y con ternura te protege siempre. El Corazón de María te cubre con su manto. San Judas Tadeo nos acompaña en el camino.</strong></h5></p>
+    <br>
+    <p><strong><h5 align="right">P. Fernando Vega C., claretiano</h5></strong></p>
+              
+              <h3 align="left">PETICION O AGRADECIMIENTO</h3>
               <input type="text" name="nameCreForm" id="nameCreForm" class="form-control" placeholder="Nombre" required="required">
               
               <textarea name="messageCreForm" id="messageCreForm" class="form-control" rows="2" width="300px" placeholder="Peticion o Agradecimiento de su mensaje" required="required"></textarea>
               
               <div>
-                <button type="submit" class="btn-submit" onclick="enviarPeticion()">Enviar Peticion</button>
+                <button type="submit" class="btn-submit" onclick="enviarPeticion()">Enviar Petición</button>
               </div>
           </div>
           <div  class="text-center col-sm-4" >
@@ -45,7 +48,7 @@ $this->load->view('utilidad/header');
                   </div>
             </a>
             <div class="service-info">
-              <h3>Peticiones, Oraciones y Alabanzas</h3>
+              <h3>Oraciones y Alabanzas</h3>
               <p>Peticiones, Oraciones y alabanzas a Dios en nombre de San Judas Tadeo</p>
             </div>
           </div>
@@ -72,7 +75,7 @@ $this->load->view('utilidad/header');
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
           <h2>Galeria de Imagen</h2>
           <hr>
-          <p><h3>Importante Galeria de Imagenes de Nuestro Santo Patrono San Judas Tadeo</h3></p>
+          <p><h3>Importante Galería de Imágenes de Nuestro Santo Patrono San Judas Tadeo</h3></p>
         </div>
     </div>
     <div class="container-fluid">
@@ -86,8 +89,8 @@ $this->load->view('utilidad/header');
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                    <h3>Sagrado Corazón de María</h3>
-                    <p>Diseños y Fotografias</p>
+                    <h3>Inmaculado Corazón de María</h3>
+                    <p>Diseños y Fotografías</p>
                   </div>
                   <div class="folio-overview">
                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
@@ -129,7 +132,7 @@ $this->load->view('utilidad/header');
                 <div class="overlay-text">
                   <div class="folio-info">
                     <h3>Vigilias, Oraciones</h3>
-                    <p>Diseños, Fotografias</p>
+                    <p>Diseños, Fotografías</p>
                   </div>
                   <div class="folio-overview">
                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
@@ -150,8 +153,8 @@ $this->load->view('utilidad/header');
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                    <h3>Homilias y Oraciones</h3>
-                    <p>Diseño, Fotografias</p>
+                    <h3>Homilías y Oraciones</h3>
+                    <p>Diseño, Fotografías</p>
                   </div>
                   <div class="folio-overview">
                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
@@ -175,26 +178,22 @@ $this->load->view('utilidad/header');
     <div class="container">
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <h2>Horarios de la Eucaristia y Otra Informacion</h2>
+          <h2>Horarios de la Eucaristía y Otra Información</h2>
               <hr>
-          <p align="left">informacion para la comunidad con respecto a los horarios de las Homilias, bautizos, confirmaciones, Horas de Alabanzas, Vigilias Nocturnas, Eventos Parroquiales</p>
+          <p align="left">información para la comunidad con respecto a los horarios de las Homilías, bautizos, confirmaciones, Horas de Alabanzas, Vigilias Nocturnas, Eventos Parroquiales</p>
         </div>
       </div>
       <div class="pricing-table">
         <div class="row">
+
           <div class="col-sm-3">
             <div class="single-table wow featured flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <h3>Eucaristias Diarias</h3>
-              <div class="price">
-                Homilia                             
-              </div>
-              <ul>
-
-                
-                <li>19:30 | 20:30</li>
+              <h3>Eucaristías Diarias</h3>
+              <ul>          
+                <li>19:30 </li>
                 <li>Todos los Jueves hacemos</li>
-                <li>la Oracion de San Judas Tadeo</li>
-                <li>al terminal la Eucaristia de las 19:30</li>
+                <li>la Oración de San Judas Tadeo</li>
+                <li>al concluir la Eucaristía</li>
                 
               </ul>
             </div>
@@ -224,20 +223,14 @@ $this->load->view('utilidad/header');
           <div class="col-sm-3">
             <div class="single-table wow featured flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
               <h3>28 de cada mes</h3>
-              <div class="price">
-                Homilia                             
-              </div>
               <ul>
-
                 <li>09:00 | 10:00</li>
                 <li>11:00 | 12:00</li>
-                <li>19:30 | 20:30</li>
-                <li>Corta Procesion con Replica</li><br>
+                <li>19:30</li>
+                <li>Corta Procesión con Réplica</li><br>
               </ul>
             </div>
           </div>
-
-
 
         </div>
       </div>
@@ -250,7 +243,7 @@ $this->load->view('utilidad/header');
         <div class="col-sm-6">
           <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
             <BR>
-            <h2>Parroquia Basílica del Corazon de maría</h2>
+            <h2>Parroquia Corazón de María </h2>
             <p  ALIGN="justify">La Basílica del Corazón de María de Santiago de Chile es el primer templo dedicado en el mundo a su titular y patrona de los misioneros hijos del Inmaculado Corazón de María, llamados también Claretianos, por su fundador, 
               San Antonio María Claret.<br>Esta iglesia, de estilo renacentista y neoclásico, se encuentra localizada en el corazón del 
               barrio San Diego. &nbsp;Fue diseñada por el padre José Viladrich, el hermano Pedro, constructor, 
@@ -263,7 +256,7 @@ $this->load->view('utilidad/header');
           <a href="<? echo base_url( )?>index.php/nosotros">Leer mas</a>
         </div>
         <div class="col-sm-6">
-          <div><h1 align="center">Basilica del Corazon de Maria</h1></div>
+          <div><h1 align="center">Parroquia Corazón de María </h1></div>
           <div>
             <img src="<? echo base_url('asset/images/slider/foto2.jpg') ?>" alt="">
           </div>
@@ -271,11 +264,11 @@ $this->load->view('utilidad/header');
       </div>
     </div>
 
- <div class="row">
-   <div class="col">
-       <? $this->load->view('utilidad/add_address_video_direccion'); ?>
-   </div>
- </div>
+     <div class="row">
+       <div class="col">
+           <? $this->load->view('utilidad/add_address_video_direccion'); ?>
+       </div>
+     </div>
 </section>
 <?
   $this->load->view('utilidad/footer');

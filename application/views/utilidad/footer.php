@@ -1,4 +1,4 @@
-
+ï»¿
   <footer id="footer">
     <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
       <div class="container text-center">
@@ -21,16 +21,17 @@
             <p>&copy; 2018 San Judas Tadeo - Santiago Chile</p>
           </div>
           <div class="col-sm-6">
-            <p class="pull-right">Creada por Parroquia Corazón de María Y Santuario de San Judas Tadeo <a href="http://www.sanjudas.cl">San Judas Tadeo</a></p>
+            <p class="pull-right">Creada por Parroquia Coraz&oacuten de Mar&iacutea Y Santuario de <a href="http://www.sanjudas.cl"><strong>San Judas Tadeo</strong></a></p>
           </div>
         </div>
       </div>
     </div>
+
   </footer>
 
   <script type="text/javascript" src="<? echo base_url('asset/js/jquery.js')?>"></script>
   <script type="text/javascript" src="<? echo base_url('asset/js/bootstrap.min.js') ?>"></script>
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  
   <script type="text/javascript" src="<? echo base_url('asset/js/jquery.inview.min.js')?>"></script>
   <script type="text/javascript" src="<? echo base_url('asset/js/wow.min.js')?>"></script>
   <script type="text/javascript" src="<? echo base_url('asset/js/mousescroll.js')?>"></script>
