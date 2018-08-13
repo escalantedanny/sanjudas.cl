@@ -6,7 +6,7 @@ class Home_controller extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->helper('url');
+			$this->load->helper('url');
         	$this->load->database();
         	$this->load->helper('form');
 		$this->load->model( 'Creyente_model' );
@@ -53,9 +53,5 @@ class Home_controller extends CI_Controller {
            	$this->Creyente_model->addContacto($nombre, $email, $asunto, $mensaje);
 	}
 
-	public function conectar(){
-		$email      =    $this->input->post('email');
-		$password   =    $this->input->post('password');
-		$this->Creyente_model->logear($email, $password);
-	}
+
 }

@@ -869,8 +869,8 @@ section {
 }
 
 textarea.form-control {
-  min-height: 120px;
-  resize:true;
+  min-height: 180px;
+  resize:none;
 }
 
 .form-group {

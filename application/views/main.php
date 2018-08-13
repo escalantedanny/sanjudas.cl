@@ -1,8 +1,8 @@
-﻿<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+﻿<?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 $this->load->view('utilidad/header');
 ?>
+
   <section id="services">
     <div class="container">
       <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -72,106 +72,106 @@ $this->load->view('utilidad/header');
   <section id="portfolio">
     <div class="container">
       <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="heading text-center col-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
           <h2>Galeria de Imagen</h2>
           <hr>
           <p><h3>Importante Galería de Imágenes de Nuestro Santo Patrono San Judas Tadeo</h3></p>
         </div>
     </div>
+
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="<? echo base_url('asset/images/sanjudas/imgppal/1.jpg') ?>" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Inmaculado Corazón de María</h3>
-                    <p>Diseños y Fotografías</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="<? echo base_url('asset/images/sanjudas/imgppal/1.jpg') ?>" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="<? echo base_url('asset/images/sanjudas/imgppal/2.jpg') ?>" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>San Judas Tadeo</h3>
-                    <p>Diseño, Fotografias</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="<? echo base_url('asset/images/sanjudas/imgppal/2.jpg') ?>" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="<? echo base_url('asset/images/sanjudas/imgppal/3.jpg') ?>" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Vigilias, Oraciones</h3>
-                    <p>Diseños, Fotografías</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="<? echo base_url('asset/images/sanjudas/imgppal/3.jpg') ?>" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="<? echo base_url('asset/images/sanjudas/imgppal/4.jpg') ?>" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Homilías y Oraciones</h3>
-                    <p>Diseño, Fotografías</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="<? echo base_url('asset/images/sanjudas/imgppal/4.jpg') ?>" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+            
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="<? echo base_url('asset/images/sanjudas/imgppal/1.jpg') ?>" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <a href="<? echo base_url()?>index.php/virgen"><h3>Corazón de María y San Judas Tadeo</h3>
+                        <p>Diseños y Fotografías</p></a>
+                    </div>
+                    <div class="folio-overview">
+                      <span class="folio-expand"><a href="<? echo base_url('asset/images/sanjudas/imgppal/1.jpg') ?>" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
-        </div>
+
+        <div class="col-sm-3">
+
+            <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="<? echo base_url('asset/images/grupoJuvenil/grupoJuvenil.jpg') ?>" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <a href="<? echo base_url()?>index.php/grupoJuvenil"><h3>Grupo Juvenil</h3>
+                        <p>Fotografias</p></a>
+                    </div>
+                    <div class="folio-overview">
+                      <span class="folio-expand"><a href="<? echo base_url('asset/images/grupoJuvenil/grupoJuvenil.jpg') ?>" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        <div class="col-sm-3">
+            <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="50ms">
+              <div class="folio-image">
+                <img class="img-responsive" src="<? echo base_url('asset/images/sanjudas/imgppal/3.jpg') ?>" alt="">
+              </div>
+              <div class="overlay">
+                <div class="overlay-content">
+                  <div class="overlay-text">
+                    <div class="folio-info">
+                      <a href="<? echo base_url()?>index.php/vigilia"><h3>Vigilias, Oraciones</h3>
+                        <p>Diseños, Fotografías</p></a>
+                    </div>
+                    <div class="folio-overview">
+                      <span class="folio-expand"><a href="<? echo base_url('asset/images/sanjudas/imgppal/3.jpg') ?>" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+              <div class="col-sm-3">
+                  <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="folio-image">
+                <img class="img-responsive" src="<? echo base_url('asset/images/comunidades/logoMigrantes.jpg') ?>" alt="">
+                    </div>
+                    <div class="overlay">
+                      <div class="overlay-content">
+                        <div class="overlay-text">
+                          <div class="folio-info">
+                            <a href="<? echo base_url()?>index.php/comunidades"><h3>Comunidades</h3>
+                              <p>Fotografías</p></a>
+                          </div>
+                          <div class="folio-overview">
+                      <span class="folio-expand"><a href="<? echo base_url('asset/images/comunidades/logoMigrantespeque.jpg') ?>" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
         
-      </div>
-    </div>
-    <div id="portfolio-single-wrap">
-      <div id="portfolio-single">
-      </div>
-    </div><!-- /#portfolio-single-wrap -->
+          </div> <!-- fin row -->
+      </div> <!-- fin de container-->
+
   </section><!--/#portfolio-->
 
   <section id="pricing">
@@ -188,8 +188,8 @@ $this->load->view('utilidad/header');
 
           <div class="col-sm-3">
             <div class="single-table wow featured flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <h3>Eucaristías Diarias</h3>
-              <ul>          
+              <h3><strong>Misas Diarias</strong></h3>
+              <ul style="text-align: left;">          
                 <li>19:30 </li>
                 <li>Todos los Jueves hacemos</li>
                 <li>la Oración de San Judas Tadeo</li>
@@ -201,18 +201,18 @@ $this->load->view('utilidad/header');
 
           <div class="col-sm-6">
             <div class="single-table featured wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
-              <h3>Actividades Pastorales</h3>
-              <ul>
-                  <li>Primer lunes de mes: Consejo Pastoral Parroquial. 19:30 hrs</li>
-                  <li>Todos los martes: Reunión Grupo de oración. 16:30 hrs</li>
+              <h3><strong>Actividades Pastorales</strong></h3>
+              <ul style="text-align: left;">
+                  <li><strong>Primer lunes de mes:</strong> Consejo Pastoral Parroquial. 19:30 hrs</li>
+                  <li><strong>Todos los martes:</strong> Reunión Grupo de oración. 16:30 hrs</li>
                   Reunión del Equipo de liturgia. 19:00 hrs
 
-                  <li>Todos los jueves: Preparación de comida para los hermanos de la calle</li>
+                  <li><strong>Todos los jueves:</strong> Preparación de comida para los hermanos de la calle</li>
                   Comunidad Encuentro con Cristo. Desde las 20:30 hrs
-                  <li>Todos los viernes: Encuentro de padres y niños de la Catequesis de Comunión (2° año). 19:30 hrs</li>
-                  <li>Todos los sábados: Encuentro Catequesis Adultos. 16:30 hrs</li>
-                  <li>Tercer sábado de mes: Adoración Nocturna al Santísimo Sacramento</li>
-                  <li>Todos los domingos: Encuentro de padres y niños de la Catequesis de Comunión (1° año). 10:00 hrs</li>
+                  <li><strong>Todos los viernes:</strong> Encuentro de padres y niños de la Catequesis de Comunión (2° año). 19:30 hrs</li>
+                  <li><strong>Todos los sábados:</strong> Encuentro Catequesis Adultos. 16:30 hrs</li>
+                  <li><strong>Tercer sábado de mes:</strong> Adoración Nocturna al Santísimo Sacramento</li>
+                  <li><strong>Todos los domingos: </strong>Encuentro de padres y niños de la Catequesis de Comunión (1° año). 10:00 hrs</li>
               </ul>
             </div>
           </div>
@@ -222,12 +222,12 @@ $this->load->view('utilidad/header');
 
           <div class="col-sm-3">
             <div class="single-table wow featured flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
-              <h3>28 de cada mes</h3>
-              <ul>
+              <h3><strong>28 de cada mes</strong></h3>
+              <ul style="text-align: left;">
                 <li>09:00 | 10:00</li>
                 <li>11:00 | 12:00</li>
                 <li>19:30</li>
-                <li>Corta Procesión con Réplica</li><br>
+                <li>Corta Procesión con Réplica de San Judas Tadeo</li><br>
               </ul>
             </div>
           </div>

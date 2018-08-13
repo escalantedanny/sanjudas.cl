@@ -12,5 +12,12 @@ $route['nosotros'] = 'Home_controller/quienes_somos';
 $route['sanjudas'] = 'Home_controller/show_sanjudas';
 $route['peticiones'] = 'Home_controller/show_peticiones';
 $route['himno'] = 'Home_controller/show_himno';
-
 $route['conectar'] = 'Auth_controller/login';
+
+$route['virgen'] = 'Imagenes_controller/virgen_view';
+
+$route['grupoJuvenil'] = 'Imagenes_controller/grupoJuvenil_view';
+
+$route['vigilia'] = 'Imagenes_controller/vigilia_view';
+
+$route['comunidades'] = 'Imagenes_controller/comunidad_view';

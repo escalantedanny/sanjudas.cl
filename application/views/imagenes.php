@@ -1,4 +1,8 @@
-<?php  defined('BASEPATH') OR exit('No direct script access allowed'); $this->load->view('utilidad/header'); ?>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$this->load->view('utilidad/header');
+?>
 
 <div class="container">
 	<div class="row">

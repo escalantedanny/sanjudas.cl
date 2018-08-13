@@ -78,6 +78,7 @@ $this->load->view('utilidad/header');
       </div><!-- /.row -->
 
     </main><!-- /.container -->
-<?
 
-$this->load->view('utilidad/footer');
+<?php
+  $this->load->view('utilidad/footer');
+?>
