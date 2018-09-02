@@ -30,17 +30,5 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 	    	$this->db->query($sql);
 		}
 
-		public function logear($email, $password)
- 		{
-                $query=$this->db->query('SELECT * FROM user WHERE correo=? AND password=? ', array($email,  md5($password)) );
-
- 		if ($query->num_rows() > 0) {
-			$row = $query->result_array();
-				//if ($row['rol'] == 1) ?	return $row[0]; : return false;
-		}
-		else
- 			return FALSE;
- 		}
-
 	}
 ?>

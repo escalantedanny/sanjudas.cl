@@ -17,11 +17,10 @@ $this->load->view('utilidad/header');
       <div class="row">
         <div class="col-md-8 blog-main">
           <h3 class="pb-3 mb-4 font-italic border-bottom">
-            Quien Fue San Judas Tadeo
+            ¿Qui&eacute;n fue San Judas Tadeo?
           </h3>
-
           <div class="blog-post">
-            <h2 class="blog-post-title">San judas Tadeo Apóstol</h2>
+            <h2 class="blog-post-title" style="color: #BA2828" >SAN JUDAS TADEO APÓSTOL</h2>
             <p class="blog-post-meta">Junio 02, 2018<a href="#">Judas Tadeo</a></p>
             <p align="justify">Judas Tadeo fue, según diversos textos neotestamentarios (Evangelios, Hechos de los Apóstoles), uno de los discípulos de Jesús de Nazaret, que formaba parte del grupo de «los doce» apóstoles. Se le menciona en los Evangelios como «hermano de Jesús». También se le llama simplemente «Tadeo», o «Judas de Santiago», aunque la identificación entre «Tadeo» (en los Evangelios de Mateo y de Marcos) y «Judas de Santiago» (en el Evangelio de Lucas y en los Hechos de los Apóstoles) es discutida por los especialistas. En todos los casos, parece existir la tendencia de acompañar el nombre de «Judas» con alguna especificación, quizá por la preocupación de los escritores de aquellos textos por diferenciar a Judas Tadeo de Judas Iscariote,2​ el apóstol a quien se atribuye haber traicionado a Jesús.</p>
 
@@ -39,7 +38,7 @@ $this->load->view('utilidad/header');
           </div><!-- /.blog-post -->
 
           <div class="blog-post">
-            <h2 class="blog-post-title">Devocion San Judas Tadeo Chile</h2>
+            <h2 class="blog-post-title">Devoci&oacute;n San Judas Tadeo Chile</h2>
             <p class="blog-post-meta">Junio 02, 2018<a href="#">Historia</a></p>
 
             <p align="justify">La devoción a San Judas Tadeo en Chile llegó junto a los padres claretianos, procedentes de España, quienes se establecieron en 1870 en Santiago. Tras su llegada al país, expandieron la congregación a otras ciudades del país como Antofagasta, Copiapó, La Serena, Valparaíso, Curicó y Temuco, donde establecieron colegios, dispensarios, comedores e internados. En 1879 se inauguró y bendijo la <strong>Basílica del Corazón de María</strong>, emplazada en el barrio San Diego, en el centro de Santiago, que es la sede nacional de la orden.</p>

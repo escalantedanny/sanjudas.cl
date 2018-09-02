@@ -1,17 +1,17 @@
 ﻿<?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-$this->load->view('utilidad/header');
-?>
+$this->load->view('utilidad/header'); ?>
 
   <section id="services">
     <div class="container">
       <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
         <div class="row">
-          <div class="text-center col-sm-8 "> <!--col-sm-offset-2 -->
+          <div class="text-left col-sm-8 "> <!--col-sm-offset-2 -->
               <p align="justify"><strong><h2>Saludo desde el Santuario</h2></strong></p>
-		<p align=”center”><h5><strong>Después de tanto tiempo aquí estamos nuevamente. Desde el Santuario de San Judas Tadeo recibe la bendición de Dios que te ama y con ternura te protege siempre. El Corazón de María te cubre con su manto. San Judas Tadeo nos acompaña en el camino.</strong></h5></p>
-    <br>
-    <p><strong><h5 align="right">P. Fernando Vega C., claretiano</h5></strong></p>
+		<p style="font-size: 12px;">El mes de septiembre es, en la Iglesia chilena, el mes de la Biblia. Este año bajo el lema <strong>“Creer en tiempos de crisis”</strong> e iluminados por la invitación del Señor: “Vengan a m&iacute; los que est&aacute;n cansados y agobiados, y yo los aliviar&eacute;” <strong>(Mateo 11, 28)</strong> queremos, desde el Santuario de San Judas Tadeo, adherir a este tiempo para fortalecer nuestra profunda experiencia de encuentro con Jesucristo; potenciando la escucha atenta de la Palabra de Dios, impulsando la vivencia comunitaria y optando por el servicio a los m&aacute;s pobres.</p>
+    <p style="font-size: 12px;">San Judas Tadeo, servidor de la Palabra, anunci&oacute; con su vida el Evangelio y nos sigue indicando que Cristo es el Camino que nos conduce a la Vida verdadera.</p>
+    <p style="font-size: 12px;">Mar&iacute;a, la sierva humilde que escuch&oacute; atenta la palabra y la hizo carne, nos ayude a comprender el mensaje, siempre actual, que Dios tiene para nosotros.</p>
+    <p><strong><h5 align="right">Fernando Vega., cmf</h5></strong></p>
               
               <h3 align="left">PETICION O AGRADECIMIENTO</h3>
               <input type="text" name="nameCreForm" id="nameCreForm" class="form-control" placeholder="Nombre" required="required">
