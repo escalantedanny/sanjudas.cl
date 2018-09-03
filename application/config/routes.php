@@ -21,3 +21,7 @@ $route['grupoJuvenil'] = 'Imagenes_controller/grupoJuvenil_view';
 $route['vigilia'] = 'Imagenes_controller/vigilia_view';
 
 $route['comunidades'] = 'Imagenes_controller/comunidad_view';
+
+// $route['register'] = 'user/register';
+// $route['login'] = 'user/login';
+// $route['logout'] = 'user/logout';
